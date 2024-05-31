@@ -1,0 +1,66 @@
+:root{
+    --topo:#411f2d;
+    --rodape:#f88863;
+    --letra:#ffe29a;    
+}
+
+header{
+    height: 15%;
+    width: 100%;
+    color: var(--letra);
+    text-align: center;
+    background-color: var(--topo);
+}
+
+body{
+    background-color: #ffc27f;
+    margin: auto;
+    text-align: center;
+}
+
+.corpo{
+    width: 50%;
+    background-color: #24211a;
+    color: var(--letra);
+    border-radius: 25px;
+    border-color: white;
+    border-width: 5px;
+    border-style: solid;
+    margin: auto;
+    margin-top: 20%;
+    text-align: center;
+    font-weight: bolder;
+    font-size: 50;
+}
+
+button{
+    margin-top: 2%;
+    background-color: #ac4147;
+    border-radius: 25px;
+    color: var(--letra);
+    border-color: var(--topo);
+    cursor: pointer;
+    font-size: 36;
+}
+
+button:hover{
+    background-color: #ac4147;
+    color: var(--topo);
+    border-color: var(--letra);
+}
+
+button:hover{
+    background-color:var(--topo);
+    color: #ac4147;
+    border-color: var(--letra);
+}
+
+footer{
+    height: 5%;
+    width: 100%;
+    color: var(--letra);
+    text-align: center;
+    background-color: var(--rodape);
+    position: absolute;
+    bottom: 0;
+}
